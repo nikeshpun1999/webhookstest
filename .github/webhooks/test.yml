@@ -2,6 +2,6 @@ name: Test Runner
 on: [push]
 jobs:
   test:
-    runs-on: nikepike
+    runs-on: nnikepike
     steps:
       - run: echo "Hello from my EC2 runner!"
