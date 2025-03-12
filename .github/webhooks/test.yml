@@ -1,0 +1,7 @@
+name: Test Runner
+on: [push]
+jobs:
+  test:
+    runs-on: nikepike
+    steps:
+      - run: echo "Hello from my EC2 runner!"
