@@ -4,4 +4,4 @@ jobs:
   test:
     runs-on: self-hosted
     steps:
-      - run: echo "Hello from my EC2 runner!"
+      - run: echo Hello from my EC2 runner!s
